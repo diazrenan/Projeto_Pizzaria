@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  background-image: url('../img/img_principal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1, .hero p {
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Formulariio */
+.card-contato {
+  background-color: #e57373;          /* Fundo do formulario */
+  border-radius: 12px;             /* cantos arredondados */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1); /* sombra */
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+#formContato .form-control {
+  border-radius: 8px;
+}
+
+#formContato .btn-success {
+  font-weight: bold;
+  padding: 10px;
+}
+
+
